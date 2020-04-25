@@ -1,7 +1,7 @@
 import {createStore,applyMiddleware} from 'redux'
 import reduxLogger from 'redux-logger'
 import reducxThunk from 'redux-thunk'
-import reduxPromise from 'redux-promise';
+import reduxPromise from 'redux-promise'
 import reducer from './reducers/index'
 
 

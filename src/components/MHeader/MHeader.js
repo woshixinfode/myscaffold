@@ -8,7 +8,7 @@ export default class MHeader extends React.Component {
     }
   render(){
     return <div className='m-header'>
-        <i className="iconfont icon-fanhui" onClick={this.back}></i>
+        <i className="iconfont icon-fanhui" onClick={this.back}> 《 </i>
         {this.props.children}
     </div>
   }

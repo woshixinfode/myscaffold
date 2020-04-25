@@ -1,5 +1,5 @@
 import * as Types from '../action-types';
-import {toReg,toLogin,toValidate} from "../../api/session";
+// import {toReg,toLogin,toValidate} from "../../api/session";
 
 
 let actions = {

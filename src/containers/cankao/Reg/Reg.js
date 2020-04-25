@@ -1,7 +1,7 @@
 import React from 'react';
-import MHHeader from '../../components/MHeader/MHeader';
+import MHHeader from '../../../components/MHeader/MHeader';
 import {Link} from 'react-router-dom';
-import actions from '../../store/actions/session';
+import actions from '../../../store/actions/session';
 import './index.less';
 import {connect} from 'react-redux';
 @connect(state=>({...state.session}),actions)

@@ -1,5 +1,5 @@
 import React from 'react';
-import MHHeader from '../../components/MHeader/MHeader';
+import MHHeader from '../../../components/MHeader/MHeader';
 import {Link} from 'react-router-dom';
 import './index.less';
 import actions from '../../store/actions/session';

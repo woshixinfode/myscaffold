@@ -1,5 +1,5 @@
 import React from 'react';
-import {toValidate} from './api/session';
+// import {toValidate} from './api/session';
 import {withRouter} from 'react-router-dom';
 @withRouter
 export default class ProtectedRoute extends React.Component {
